@@ -1,0 +1,28 @@
+#dialog-add-student {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1!important;
+}
+
+#dialog-add-student form {
+  width: 35%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 2px solid hsl(220, 9%, 19%);
+}
+
+#dialog-add-student form h2 {
+  font-size: 1.2em;
+}
+
+#dialog-add-student.open {
+  display: flex;
+}
